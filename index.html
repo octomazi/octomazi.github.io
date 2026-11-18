@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1B1125">
+  <meta name="description" content="Octomazi — 3D Creation, Animation & Media Technology. Coming soon.">
+  <title>Octomazi | Coming Soon</title>
+
+  <style>
+    :root {
+      --background: #1B1125;
+      --gold: #DDBB78;
+      --muted: #A997B4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--background);
+      color: var(--gold);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main {
+      padding: 40px 24px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .logo {
+      display: block;
+      width: min(58vw, 320px);
+      height: auto;
+      margin: 0 auto 28px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 650;
+      letter-spacing: -0.055em;
+    }
+
+    .coming-soon {
+      margin-top: 35px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.36em;
+      text-transform: uppercase;
+    }
+
+    .description {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <img
+      class="logo"
+      src="octomazi-logo.png"
+      alt="Octomazi octopus logo"
+    >
+
+    <h1>octomazi</h1>
+
+    <div class="coming-soon">
+      Coming Soon
+    </div>
+
+    <p class="description">
+      3D Creation · Animation · Media Technology
+    </p>
+  </main>
+</body>
+</html>
